@@ -74,6 +74,46 @@ public class Pokemon {
                 baseStats[4] = 50;
                 baseStats[5] = 65;
                 break;
+            case "Chameleon":
+                baseStats[0] = 58;
+                baseStats[1] = 64;
+                baseStats[2] = 58;
+                baseStats[3] = 80;
+                baseStats[4] = 65;
+                baseStats[5] = 80;
+                break;
+            case "Charizard":
+                baseStats[0] = 78;
+                baseStats[1] = 84;
+                baseStats[2] = 78;
+                baseStats[3] = 109;
+                baseStats[4] = 85;
+                baseStats[5] = 100;
+                break;
+            case "Squirtle":
+                baseStats[0] = 44;
+                baseStats[1] = 48;
+                baseStats[2] = 65;
+                baseStats[3] = 50;
+                baseStats[4] = 64;
+                baseStats[5] = 43;
+                break;
+            case "Wartortle":
+                baseStats[0] = 59;
+                baseStats[1] = 63;
+                baseStats[2] = 80;
+                baseStats[3] = 65;
+                baseStats[4] = 80;
+                baseStats[5] = 58;
+                break;
+            case "Blastoise":
+                baseStats[0] = 79;
+                baseStats[1] = 83;
+                baseStats[2] = 100;
+                baseStats[3] = 85;
+                baseStats[4] = 105;
+                baseStats[5] = 78;
+                break;
             // suite
         }
         return baseStats;
